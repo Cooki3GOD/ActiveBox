@@ -10,7 +10,6 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: 600%;
 }
 header {
     height: 500px;
@@ -277,4 +276,53 @@ main button {
     color: white;
     border: none;
     cursor: pointer;
+}
+.last {
+    color: white;
+    height: 300px;
+    width:  100%;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #1c3446;
+}
+.last .location{
+    margin-left: 200px;
+    display: flex;
+    gap: 10px 0;
+    flex-direction: column;
+    width: 20%;
+}
+.last .location p {
+    color: grey;    
+}
+.last .share {
+
+    text-transform: uppercase;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px 10px;
+}
+.last .share .icons {   
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+}
+.last .share .icons i {
+    font-weight: bolder;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+}
+.last .about {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.last .about p {
+    width: 70%;
 }
