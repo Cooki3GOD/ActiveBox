@@ -10,9 +10,11 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100vw;
+    height: 600%;
 }
 header {
-    height: 70vh;
+    height: 500px;
+    width: 100%;
     background-image: url("https://images.pexels.com/photos/1419923/pexels-photo-1419923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,7 +22,7 @@ header {
 
 nav {
     background-color: rgba(20, 45, 77, 0.95); 
-    width: 100vw;
+    width: 100%;
     height: 150px;
     display: flex;
     align-items: center;
@@ -53,7 +55,7 @@ nav a {
 }
 main {
     background-color: rgba(20, 45, 77, 0.95); 
-    height: 50vh;
+    height: 70%;
     display: flex ;
     flex-direction: column;
     color: white;
@@ -73,8 +75,9 @@ main button {
     cursor: pointer;
 }
 .features {
-    padding: 10px;
-    height: 60vh;
+    margin: 10px;
+    padding: 20px;
+    height: 600px;
     display: grid;
     gap: 15px;
     grid-template-rows: 1fr 1fr;
@@ -95,8 +98,9 @@ main button {
     margin: 10px;
 }
 .works {
+    margin: 10px;
     gap: 2px;
-    height: 60vh;
+    height: 60%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(4, 1fr);
@@ -147,5 +151,71 @@ main button {
     background-image: url("https://images.pexels.com/photos/614711/pexels-photo-614711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     height: 300px;
     width: 350px;
+    background-size: cover;
+}
+.team {
+    padding: 40px;
+    height: 700px;
+    width: 100%;
+}
+.team .cards {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.team .card {
+    height: 600px;
+    width: 250px;
+}
+.team .number1 .person {
+    width: 100%;
+    height: 300px;
+    background-image: url("https://images.pexels.com/photos/1585634/pexels-photo-1585634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team .text {
+    padding: 5px;
+}
+.team .text h3 {
+    margin: 10px 0;
+    font-size: 25px;
+}
+.team .text p {
+    color: grey;
+}
+.team .text .role {
+    color: red;
+    margin: 10px 0;
+    font-size: 20;
+}
+.team .icons {
+    padding: 5px;
+}
+.team .icons i {
+    padding: 10px;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+}
+.team .number2 .person {
+    background-image: url("https://images.pexels.com/photos/1820934/pexels-photo-1820934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team .number3 .person {
+    background-image: url("https://images.pexels.com/photos/28669447/pexels-photo-28669447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team .number4 .person {
+    background-image: url('https://images.pexels.com/photos/28370135/pexels-photo-28370135/free-photo-of-denis.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
     background-size: cover;
 }
