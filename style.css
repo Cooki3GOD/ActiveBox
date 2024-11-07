@@ -98,7 +98,7 @@ main button {
     margin: 10px;
 }
 .works {
-    margin: 10px;
+    margin: 10px 0;
     gap: 2px;
     height: 60%;
     display: grid;
@@ -109,7 +109,7 @@ main button {
     background-image: url("https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     height: 300px;
-    width: 400px;
+    width: 4    00px;
 }
 .works .image2 {
     background-image: url("https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -127,7 +127,7 @@ main button {
     background-image: url("https://images.pexels.com/photos/461064/pexels-photo-461064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     height: 300px;
-    width: 350px;
+    width: 300px;
 }
 .works .image5 {
     background-image: url("https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -150,7 +150,7 @@ main button {
 .works .image8 {
     background-image: url("https://images.pexels.com/photos/614711/pexels-photo-614711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     height: 300px;
-    width: 350px;
+    width: 300px;
     background-size: cover;
 }
 .team {
@@ -218,4 +218,41 @@ main button {
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.slider {
+    margin: 10px 0;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.slider .left {
+    background-image: url("https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}
+.slider .right {
+    background-color: purple;
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+.slider .right .dots {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+    color: lightgrey;
+    font-size: 10px;
+}
+.slider .right .dots i:nth-child(2) {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
 }
