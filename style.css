@@ -256,3 +256,25 @@ main button {
     font-weight: bold;
     font-size: 15px;
 }
+.download {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.download h2 {
+    font-weight: lighter;
+}
+.download p {
+    font-weight: bold;
+}
+.download button {
+    height: 40px;
+    width: 250px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
