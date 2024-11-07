@@ -326,3 +326,15 @@ main button {
 .last .about p {
     width: 70%;
 }
+footer {
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    background-color: #152634;
+    height: 100px;
+    width: 100%;
+    color: grey;
+}
+footer span {
+    color: white;
+}
